@@ -24,7 +24,7 @@ public class DataBaseControl {
 
         try {
             Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/biteme?serverTimezone=IST","root", "nuthav");
+                "jdbc:mysql://localhost:3306/biteme?serverTimezone=IST","root", "yuvalsha1997@");
             System.out.println("SQL connection succeed");
             return conn;
         } catch (SQLException ex) {

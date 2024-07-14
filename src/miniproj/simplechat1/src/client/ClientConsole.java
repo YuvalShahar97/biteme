@@ -83,6 +83,7 @@ public class ClientConsole implements ChatIF
           String orderAddress = fromConsole.readLine();
           message = String.format("update;%s;%s;%s", orderNumber, totalPrice, orderAddress);
         }
+        
         client.handleMessageFromClientUI(message);
       }
     }
